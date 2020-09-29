@@ -1,0 +1,35 @@
+{
+  "name": "@actionsflow/trigger-example_for_js",
+  "version": "1.0.0",
+  "description": "Actionsflow trigger example for js",
+  "keywords": [
+    "example",
+    "actionsflow",
+    "trigger"
+  ],
+  "author": "Owen Young <theowenyoung@gmail.com>",
+  "homepage": "https://github.com/actionsflow/actionsflow-trigger-example_for_js",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actionsflow/actionsflow-trigger-example_for_js.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/actionsflow/actionsflow-trigger-example_for_js/issues"
+  },
+  "devDependencies": {
+    "actionsflow-core": "^0.1.43",
+    "eslint": "^7.10.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
+  }
+}

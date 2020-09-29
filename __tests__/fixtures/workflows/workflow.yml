@@ -1,0 +1,13 @@
+on:
+  example_for_js:
+    param1: value
+jobs:
+  print:
+    name: Print
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Outputs
+        env:
+          title: ${{on.example_for_js.outputs.title}}
+        run: |
+          echo title: $title
